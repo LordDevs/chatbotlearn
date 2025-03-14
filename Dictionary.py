@@ -46,12 +46,18 @@ my_vehicle = {# create a dictionary
     'mileage': 30000
 }
 
-vehicle = my_vehicle.copy()# copy the dictionary
+vehicle2 = my_vehicle.copy()# copy the dictionary
 for x, y in my_vehicle.items():# loop through the dictionary
     print(x, y)# print the key:value pairs of the dictionary
 
-vehicle['number_of_tires'] = 4# add a new key:value pair to the dictionary
-vehicle.pop('mileage')# remove the key:value pair from the dictionary
-print(vehicle.keys())
+vehicle2['number_of_tires'] = 4# add a new key:value pair to the dictionary
+vehicle2.pop('mileage')# remove the key:value pair from the dictionary
+print(vehicle2)#wrong
+
+#correction of line 55
+for x in vehicle2:# loop through the dictionary
+    print(x)# print the keys of the dictionary
+
+
 
 
