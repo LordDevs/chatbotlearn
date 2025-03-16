@@ -12,12 +12,12 @@ public class Circle extends Shape{
 
    @Override
    public double area(){
-      return Math.PI * radius * radius;// area calculation with PI ~3,14
+      return Math.PI * radius * radius;// area calculation with PI ~3,1416
    }
 
    @Override
    public double perimeter(){
-      return 2 * Math.PI * radius;
+      return 2 * Math.PI * radius;//PI is the same as ~3,1416
    }
 
    public static void main(String[] args) {
