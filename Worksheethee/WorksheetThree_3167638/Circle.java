@@ -3,7 +3,7 @@ package WorksheetThree_3167638;
 public class Circle extends Shape{
    private double radius;
 
-   public Circle(String name, doule radius){
+   public Circle(String name, double radius){
       super(name);
       this.radius = radius;
    }
@@ -20,7 +20,8 @@ public class Circle extends Shape{
       return 2 * Math.PI * radius;//PI is the same as ~3,1416
    }
 
-   public static void main(String[] args) {
-      
+   @Override
+   public String toString(){
+      return super.toString() + ", Radius:" + radius + ", Area" + area() + ", Perimeter" + perimeter();
    }
 }
