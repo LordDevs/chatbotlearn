@@ -11,6 +11,6 @@ class Cat:
     legs: int = 4
     ears: int = 2
     type: str = 'SRD'
-    age: int = 5
+    age: int = 10
     color: str = 'Rajado'
     name: str = 'Miona'

@@ -1,0 +1,6 @@
+{
+    "inlineChat.lineEmptyHint": true,
+    "python.analysis.extraPaths": [
+        "./OOP/oopgame"
+    ]
+}
