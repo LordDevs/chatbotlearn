@@ -10,7 +10,7 @@ public class Circle extends Shape{
       this.radius = radius;
    }
 
-   //get an set
+   //get and set
 
    @Override
    public double area(){
@@ -24,6 +24,6 @@ public class Circle extends Shape{
 
    @Override
    public String toString(){
-      return super.toString() + ", Radius:" + radius + ", Area" + area() + ", Perimeter" + perimeter();
-   }
+      return super.toString() + ", Radius" + radius + "Area" + area() + "Perimeter" + perimeter();
+}
 }
