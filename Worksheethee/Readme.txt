@@ -1,0 +1,1 @@
+Exercise with which I had a lot of difficulty, I consulted the websites and videos and had some problems with the asserts

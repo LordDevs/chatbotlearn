@@ -1,5 +1,7 @@
 package WorksheetThree_3167638;
 
+//Area = PI * r^2
+
 public class Circle extends Shape{
    private double radius;
 
