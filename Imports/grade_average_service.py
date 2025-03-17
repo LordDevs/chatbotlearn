@@ -8,4 +8,5 @@ def calculate_homework(homework_assignments_arg):
                         len(homework_assignments_arg) ,5)#round means the decimals we want so I put 2
     print(final_grade)
 
+
 #this codes means the calculations of all homeworks and divide per 3 and at line 19 we are chosing how many decimals we can choose
