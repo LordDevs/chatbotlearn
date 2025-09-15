@@ -1,3 +1,6 @@
+import random
+
+
 class Enemy:
     def __init__(self, type_of_enemy, health_points, attack_damage):
         self._type_of_enemy = type_of_enemy  # um underline: “protegido”, acessível em subclasses
@@ -16,5 +19,7 @@ class Enemy:
 
     def attack(self):
         print(f'{self._type_of_enemy} attacks for {self.attack_damage} damage!')
-        # se quiser evoluir depois, dá pra receber um alvo e reduzir HP
-        # exemplo: target.health_points -= self.attack_damage
+
+    def special_attack(self):
+        print('Enemy has no special attack')
+
